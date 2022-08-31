@@ -15,7 +15,7 @@ public class PageController {
     public String showProductPage() { return "/catalog/product-detail"; }
 
     @RequestMapping("search")
-    public String redirectGoogle() { return "redirect:http://www.google.com"; }
+    public String redirectGoogle() { return "redirect:http://www.google.com";}
 
     @RequestMapping("/")
     public String showHomePage() { return "index"; }
